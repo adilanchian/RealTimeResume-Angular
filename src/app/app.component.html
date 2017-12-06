@@ -1,0 +1,16 @@
+<!-- resume.html should be displayed here -->
+<div [innerHTML]="resumeHTML" class="resume-container"></div>
+<div class="line-break"></div>
+<h3>Latest Commit</h3>
+<div class="commit-log" *ngIf="commits; else noCommits">
+    <div class="commit" *ngFor="let commit of commits">
+        <div class="commit-content">
+            <p>{{commit.timestamp}}</p>
+            <a href={{commit.url}} target=_blank><b>Commit Id: {{commit.id}}</b></a>
+            <p><i>{{commit.message}}</i></p>
+        </div>
+    </div>
+</div>
+<ng-template #noCommits>
+  <h4><i>Don't forget to update your resume!</i></h4>
+</ng-template>

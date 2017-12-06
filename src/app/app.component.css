@@ -1,0 +1,51 @@
+h3 {
+    margin-bottom: 0;
+}
+
+h4 {
+    margin-top: 0;
+}
+
+.resume-container {
+    background-color: white;
+    width: 75%;
+    height: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    overflow: auto;
+    border-radius: 5px;
+}
+
+.line-break {
+    width: 50%;
+    margin: 0 auto;
+    border-bottom: 2px black solid;
+    padding: 25px 0 25px 0;
+}
+
+.commit-log {
+    display: inline-block;
+    margin-top: 18px;
+    margin-left: 12%;
+    width: 75%;
+}
+
+.commit-log .commit {
+    display: inline-block;
+    padding: 10px;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.commit-log .commit .commit-content {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.commit-log .commit .commit-content p {
+    margin: 0;
+    line-height: 28px;
+}
