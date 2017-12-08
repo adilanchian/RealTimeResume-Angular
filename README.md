@@ -1,5 +1,19 @@
 # RealTimeResume-Angular
 
+## Table Of Contents
+* [Introduction](#introduction)
+* [Getting Started](#getting-started)
+    + [Github Webhook](#github-webhook)
+      + [Github Webhook Setup](#github-webhook-setup)
+    + [Ngrok](#ngrok)
+    + [Server](#server)
+    + [Pusher](#pusher)
+      + [Setting Up Pusher](#setting-up-pusher)
+    + [Setting Up Angular Project](#setting-up-angular-project)
+* [Running RealTimeResume-Angular](#running-realtimeresume-angular)
+* [Huge Thanks](#huge-thanks)
+* [Questions/Concerns](#questions-concerns)
+
 ## Introduction
 Welcome to RealTimeResume! This Angular app is an attempt at creating a component that allows you to keep your resume update to date on any angular site by utilizing Github's webhook.
 Using Azure, Github Pages, Node.js, and Pusher I was able to creating a working version of this @ http://adilanchian.me/RealTimeResume
