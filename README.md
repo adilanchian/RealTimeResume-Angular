@@ -49,7 +49,7 @@ time. Once you open the application navigate to `src -> enviornments -> enviornm
 credentials. For the `ngrok_url` property, for local development you will be setting your ngrok produced url and for production
 that will need to change to your Azure cloud web app url.
 
-### Running RealTimeResume-Angular
+## Running RealTimeResume-Angular
 After following this setup process you are ready to start your component! In this order run this commands in their respective
 directories:
 
@@ -58,7 +58,7 @@ directories:
 
 Navigate to `localhost:4200` you should see something similar to what you see on the example site: http://adilanchian.me/RealTimeResume
 
-### Questions/Concerns
+## Questions/Concerns
 Thanks for checking out this project! If you have any questions or cocerns about the Angular portion of this component, please
 file a Github Issue in this repository.
 If you have any questions or concerns in regards to the server component please file a Github Issue at the following repository
